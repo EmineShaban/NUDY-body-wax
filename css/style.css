@@ -29,6 +29,14 @@ img {
     margin: auto;
 }
 
+.title {
+    font-size: 32px;
+    color: var(--main-brown-font);
+    font-weight: 300;
+    text-align: center;
+    margin: 20px auto;
+}
+
 /* header */
 header {
     margin-top: 40px;
@@ -96,7 +104,7 @@ header ul li a {
 .hero-text {
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 45%;
     transform: translate(-50%, -50%);
     line-height: 1.1;
     color: var(--main-white);
@@ -105,11 +113,11 @@ header ul li a {
 }
 
 .hero-text h4 {
-    font-size: 40px;
+    font-size: 33px;
     text-transform: uppercase;
     margin-top: 6px;
 }
- 
+
 .hero-images img:nth-child(1) {
     width: 85%;
     margin: auto;
@@ -149,4 +157,142 @@ header ul li a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+
+/* about */
+.about {
+    margin: 50px auto;
+}
+
+.palm {
+    width: 40px;
+    margin: auto;
+    display: block;
+}
+
+.sub-title {
+    color: var(--main-white);
+    background-color: var(--main-green);
+    text-align: center;
+    padding: 8px 0;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.about-table {
+    display: grid;
+    grid-template-columns: 1fr 0.6fr;
+    margin: 40px auto;
+}
+
+.table {
+    border: var(--main-brown-font) 2px solid;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 50px;
+    padding-right: 70px;
+    margin: 40px auto;
+}
+
+.table-div {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 0 25px;
+
+}
+
+.table-div:nth-child(1) {
+    border-bottom: var(--main-brown-font) 1px solid;
+    border-right: var(--main-brown-font) 1px solid;
+
+}
+
+.table-div:nth-child(2) {
+    border-bottom: var(--main-brown-font) 1px solid;
+    padding-left: 40px;
+
+}
+
+.table-div:nth-child(3) {
+    border-right: var(--main-brown-font) 1px solid;
+
+}
+
+.table-div:nth-child(4) {
+
+    padding-left: 40px;
+}
+
+.table-div p {
+    color: var(--main-brown-font);
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.check {
+    width: 15px;
+    margin-top: -15px;
+}
+
+.product-with-coconut {
+    margin: auto;
+    margin-left: -100px;
+
+}
+
+
+/* why-nudy */
+
+.why-nudy-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+}
+
+.why-nudy-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.why-nudy-content img{
+    width: 80px;
+    margin-right: 35px;
+
+}
+.why-nudy-text{
+    color: var(--main-brown-font);
+    line-height: 1.4;
+    width: 65%;
+    font-weight: 300;
+}
+.why-nudy-text h3{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+/* blue-banner */
+
+.blue-banner{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}
+
+
+.blue-banner-text{
+    background-color: #F3F7FD;
+    color: #70A3C1;
+    height: 100%;
+    font-size: 30px;
+}
+
+.blue-banner-text h3{
+    font-size: 48px;
+    font-weight: 800;
 }
