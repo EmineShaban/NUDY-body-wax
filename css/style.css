@@ -246,7 +246,7 @@ header ul li a {
 
 /* why-nudy */
 
-.why-nudy-grid{
+.why-nudy-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 40px;
@@ -259,40 +259,54 @@ header ul li a {
     margin-bottom: 40px;
 }
 
-.why-nudy-content img{
+.why-nudy-content img {
     width: 80px;
     margin-right: 35px;
 
 }
-.why-nudy-text{
+
+.why-nudy-text {
     color: var(--main-brown-font);
     line-height: 1.4;
     width: 65%;
     font-weight: 300;
 }
-.why-nudy-text h3{
+
+.why-nudy-text h3 {
     font-size: 20px;
     margin-bottom: 12px;
 }
 
 /* blue-banner */
 
-.blue-banner{
-    display: flex;
-    flex-direction: row;
+.blue-banner {
+    display: grid;
+    grid-template-columns: 0.65fr 1fr;
     gap: 25px;
-    align-items: center;
+    margin: 60px auto;
 }
 
 
-.blue-banner-text{
+.blue-banner-text {
     background-color: #F3F7FD;
     color: #70A3C1;
-    height: 100%;
-    font-size: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
 }
 
-.blue-banner-text h3{
-    font-size: 48px;
+
+
+.blue-banner-text p {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 300;
+
+}
+
+.blue-banner-text h3 {
+    font-size: 50px;
     font-weight: 800;
 }
