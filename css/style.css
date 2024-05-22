@@ -447,5 +447,31 @@ header ul li a {
 
 .zones-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 0.8fr 1fr;
+    column-gap: 50px;
 }
+
+ .zone-text{
+    margin: auto;
+ }
+
+ .zone{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ .zones-description{
+    display: flex;
+ }
+
+  
+ .zone li{
+    text-align: center;
+    background-color: var(--main-grey);
+    color: var(--main-light-grey-font);
+    border-radius: 20px;
+    padding: 8px 0;
+    font-size: 17px;
+    font-weight: 600;
+ }
