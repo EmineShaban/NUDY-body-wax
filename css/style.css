@@ -383,10 +383,11 @@ header ul li a {
 
 
 /* revolutionary body wax */
-.revolutionary-body-wax{
+.revolutionary-body-wax {
     margin: 100px auto;
 
 }
+
 .revolutionary {
     width: 85%;
     margin: auto;
@@ -438,21 +439,21 @@ header ul li a {
 
 /* zones */
 
-.zones h2{
+.zones h2 {
     font-size: 32px;
     font-weight: 500;
     color: var(--main-light-grey-font);
     text-align: center;
 }
 
-.zones-grid{
+.zones-grid {
     display: grid;
     grid-template-columns: 0.5fr 0.8fr 0.8fr;
-    column-gap: 50px;
+    /* column-gap: 50px; */
     margin: 70px auto;
 }
 
- .zone-text{
+.zone-text {
     padding: 25px 50px;
     background-color: var(--main-grey);
     color: var(--main-light-grey-font);
@@ -462,30 +463,50 @@ header ul li a {
     line-height: 1.4;
     border: 1px solid var(--main-light-grey-font);
     border-radius: 20px;
- }
- .zone-text h3{
+}
+
+.zone-text h3 {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 20px;
- }
- .zone-text p{
+}
+
+.zone-text p {
     width: 85%;
     font-size: 15px;
- }
- .zone{
+}
+
+.zone {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
- }
+}
 
- .zones-description{
+.zones-description {
     display: flex;
     padding: 20px;
- }
+    padding-left: 0;
+}
 
-  
- .zone li{
+
+.zone li {
     text-align: center;
+
+    width: 85%;
+    margin: auto;
+    margin-right: 0;
+
+
+}
+
+.zone-li div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.zone-li div p {
+    display: block;
     background-color: var(--main-grey);
     color: var(--main-light-grey-font);
     border-radius: 20px;
@@ -493,16 +514,15 @@ header ul li a {
     font-size: 17px;
     font-weight: 600;
     cursor: pointer;
-    width: 90%;
-    margin: auto;
-
-  
-    
- }
-.zone-li div{
-    display: flex;
+    width: 100%;
 }
- .border{
+
+.zone-li div hr {
+    width: 30%;
+
+}
+
+.border {
     border: 1px solid var(--main-light-grey-font);
-    
- }
+
+}
