@@ -526,3 +526,27 @@ header ul li a {
     border: 1px solid var(--main-light-grey-font);
 
 }
+
+
+.wax-heater{
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    gap: 30px;
+}
+
+.wax-heater div{
+    color: var(--main-light-grey-font);
+    margin: auto;
+}
+.wax-heater div p{
+    line-height: 1.4;
+    width: 80%;
+}
+.wax-heater div h3{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+    
