@@ -1507,14 +1507,21 @@ footer .useful-links li {
 
     .coconuts-div p {
         font-size: 20px;
+        color: #68584C;
 
     }
 
     .coconuts-div {
         justify-content: space-around;
-
     }
-    68584C
+    .coconuts-div img{
 
+    mix-blend-mode: multiply;
+    }
+.coconuts{
+    width: 100%!important;
+    background-color: var(--main-grey);
+
+}
 
 }
