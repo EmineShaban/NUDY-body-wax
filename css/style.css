@@ -42,6 +42,14 @@ img {
     margin: 20px auto;
 }
 
+.desktop994 {
+    display: block;
+}
+
+.mobile994 {
+    display: none;
+}
+
 /* header */
 header {
     margin-top: 40px;
@@ -71,7 +79,7 @@ header ul li a {
 
 .hero {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 350px;
+    grid-template-columns: 1fr 1fr 1fr 500px;
     align-items: stretch;
     column-gap: 10px;
 }
@@ -188,7 +196,7 @@ header ul li a {
 
 .about-table {
     display: grid;
-    grid-template-columns: 1fr 0.6fr;
+    grid-template-columns: 1fr 0.8fr;
     margin: 40px auto;
 }
 
@@ -245,7 +253,7 @@ header ul li a {
 
 .product-with-coconut {
     margin: auto;
-    margin-left: -100px;
+    margin-left: -250px;
 
 }
 
@@ -390,7 +398,7 @@ header ul li a {
 /* revolutionary body wax */
 .revolutionary-body-wax {
     margin: 100px auto;
-
+    margin-top: 200px;
 }
 
 .revolutionary {
@@ -852,8 +860,9 @@ header ul li a {
     font-style: italic;
     font-weight: 500;
     margin: 10px 0px;
+    line-height: 1.3;
 }
- 
+
 .review img.sm-rating {
     width: 100px;
     mix-blend-mode: multiply;
@@ -884,4 +893,319 @@ header ul li a {
 
 #showlesscomments {
     display: none;
+}
+
+/* disclaimer */
+.sm-disclaimer {
+    padding: 30px;
+    background-color: rgba(217, 217, 217, 0.17);
+    font-size: 14px;
+    line-height: 1.1;
+    color: rgba(43, 43, 43, 0.58);
+}
+
+.sm-disclaimer img {
+    width: 100px;
+}
+
+/* footer */
+
+footer,
+.sm-disclaimer {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: rgba(217, 217, 217, 0.17);
+    text-align: center;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    padding: 15px 0px;
+    flex-direction: row;
+}
+
+footer .logo {
+    width: 140px;
+}
+
+footer a,
+footer p {
+    color: var(--main-brown-font);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+
+footer p {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+footer .contact-links ul {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 40px);
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.useful-links {
+    text-align: left;
+}
+
+footer .useful-links li {
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 2400px) {
+
+
+    .product-with-coconut {
+        margin: auto;
+        margin-left: -190px;
+
+    }
+}
+
+@media screen and (max-width: 2200px) {
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 400px;
+    }
+
+    .product-with-coconut {
+        margin: auto;
+        margin-left: -120px;
+    }
+
+
+}
+
+@media screen and (max-width: 1900px) {
+
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .phase-text {
+        height: 60%;
+    }
+
+    .revolutionary-body-wax {
+        margin-top: 150px;
+    }
+
+
+    .revolutionary {
+        width: 100%;
+    }
+
+    .product-with-coconut {
+        margin: auto;
+        margin-left: -73px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1500px) {
+    .container {
+        width: 80%;
+    }
+
+    .hero-first h3 {
+        padding-left: 22px;
+    }
+
+    .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .product-with-coconut {
+        margin: auto;
+        margin-left: -65px;
+    }
+
+    .revolutionary-body-wax {
+        margin-top: 110px;
+    }
+
+    .steps {
+        column-gap: 0px;
+        width: 100%;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+
+    .coconuts-div {
+        width: 85%;
+    }
+
+    .banner-text {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+
+    .revolutionary {
+        margin-left: 60px;
+
+    }
+
+    .phases {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 70px auto;
+        column-gap: 25px;
+    }
+
+    .phase-text {
+        height: 65%;
+    }
+
+    .revolutionary-body-wax {
+        margin-top: 160px;
+    }
+
+    .phase img {
+        width: 50%;
+    }
+
+    .table-div:nth-child(2) {
+        border-bottom: var(--main-brown-font) 1px solid;
+        padding-left: 20px;
+    }
+
+    .table-div:nth-child(4) {
+        padding-left: 20px;
+    }
+
+    .table-div {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 0 13px;
+    }
+
+    .table-div p {
+        color: var(--main-brown-font);
+        font-size: 16px;
+    }
+
+    .table {
+        border: var(--main-brown-font) 2px solid;
+        border-radius: 16px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px 23px;
+    }
+
+
+
+    header ul {
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 994px) {
+    p {
+        font-size: 14px;
+    }
+
+    header ul {
+        width: 70%;
+    }
+
+    .desktop994 {
+        display: none;
+    }
+
+    .mobile994 {
+        display: block;
+    }
+
+
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 70%;
+    }
+
+    .hero-last img {
+        margin-left: 0;
+    }
+
+    .hero-images img:nth-child(1) {
+        width: 100%;
+    }
+
+    .hero-images {
+        width: 80%;
+        margin: auto;
+    }
+
+    .width3 {
+        width: 25%;
+
+    }
+
+    .background {
+        background-image: url(../images/background.png);
+        background-size: cover;
+        background-repeat: round;
+        padding-top: 70px;
+    }
+
+    .hero-last {
+        mix-blend-mode: multiply;
+
+    }
+
+    .mob-logo {
+        background-color: var(--main-brown-font);
+
+    }
+
+    .mob-logo img {
+        display: block;
+        width: 100px;
+        margin: auto;
+        padding: 20px 0;
+    }
+    .header-mobile p{
+        color: var(--main-brown-font); 
+        text-align: center;
+        margin-top: 25px;
+        line-height: 1.2;
+    }
+    .header-mobile h1{
+        color: var(--main-brown-font);
+        text-transform: uppercase;
+        font-size: 36px;
+        text-align: center;
+        line-height: 1.2;
+        margin-top: 13px;
+        margin-bottom: 20px;
+    }
 }
