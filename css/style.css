@@ -1373,9 +1373,34 @@ footer .useful-links li {
         font-weight: 500;
 
     }
+    .about-table{
+        display: block;
+    }
+    .table {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: none;
+    }
+    .table-div{
+        border: none!important;
+        padding: 20px 40px!important;
+        background-color: #f6f0eb89; 
+        margin-bottom: 15px;
+        border-radius: 15px;
+    }
+
+    .table-div {
+        display: flex;
+        align-items: center;
+        gap: 35px;
+    }
 
 
 
 
 
+
+
+
+    
 }
