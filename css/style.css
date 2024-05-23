@@ -1344,7 +1344,7 @@ footer .useful-links li {
 
 
     .about-mobile img {
-        width: 90%;
+        width: 70%;
         margin: auto;
         display: block;
     }
@@ -1376,19 +1376,21 @@ footer .useful-links li {
 
     .about-table {
         display: block;
+        margin: 10px auto;
     }
 
     .table {
         display: grid;
         grid-template-columns: 1fr;
         border: none;
+        margin: 0;
     }
 
     .table-div {
         border: none !important;
         padding: 20px 40px !important;
         background-color: #f6f0eb89;
-        margin-bottom: 15px;
+        margin-bottom: 18px;
         border-radius: 15px;
     }
 
@@ -1399,11 +1401,120 @@ footer .useful-links li {
     }
 
 
+    .check {
+        width: 18px;
+        margin: auto 0;
+    }
 
+    .why-nudy-mobile {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: flex-end;
+        align-items: end;
+        margin-top: -130px;
+        /* width: 90%; */
+    }
 
+    .why-nudy-mobile a {
 
+        margin: 0;
+    }
 
+    .why-nudy-mobile img {
+        display: block;
+        margin: auto;
+        width: 70%;
+    }
 
+    .why-nudy-header .title {
+        background-color: var(--main-green);
+        color: var(--main-white);
+        padding: 15px;
+        line-height: 1.3;
+        font-size: 16px;
+        width: 45%;
+        margin: 0;
+        margin-top: 24px;
+        border-top-right-radius: 9px;
+        border-bottom-right-radius: 9px;
+        padding-left: 40%;
+        text-align: left;
+    }
+
+    .why-nudy-header .title b {
+        display: block;
+    }
+
+    .why-nudy {
+        margin: 50px auto;
+    }
+
+    .why-nudy .q img {
+        width: 25px;
+        margin: auto 10px;
+    }
+
+    .why-nudy .q {
+        background-color: var(--main-grey);
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        margin-top: 15px;
+        padding: 10px 10%;
+        border: none;
+        color: var(--main-light-grey-font);
+        font-weight: 700;
+    }
+
+    .why-nudy .q p {
+        margin: auto 0;
+    }
+
+    .why-nudy .q::after {
+        right: 10%;
+        top: 30%;
+    }
+
+    .why-nudy .a {
+        color: var(--main-light-grey-font);
+        background-color: unset;
+        width: 65%;
+        margin: auto;
+        padding-bottom: 5px;
+        font-size: 13px;
+    }
+
+    .blue-banner {
+        /* background-image: url(../images/blue-banner-with-girl-m.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 180px; */
+        display: block;
+
+        margin: 25px auto;
+        position: relative;
+    }
+
+    .blue-banner-text {
+        background-color: unset;
+        color: var(--main-white);
+        padding-left: 10%;
+        position:absolute;
+        top: 50%;
+        left: 18%;
+        transform: translate(-50%, -50%);
+    }
+
+    .coconuts-div p {
+        font-size: 20px;
+
+    }
+
+    .coconuts-div {
+        justify-content: space-around;
+
+    }
+    68584C
 
 
 }
