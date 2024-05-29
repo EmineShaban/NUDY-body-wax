@@ -1541,15 +1541,18 @@ footer .useful-links li {
         font-weight: 400;
 
     }
+
     .phases-background {
         background-color: var(--main-grey);
 
     }
+
     .phases {
-margin: 0 auto;
-padding: 30px 0;
+        margin: 0 auto;
+        padding: 30px 0;
 
     }
+
     .phase {
         margin-bottom: 10px;
 
@@ -1601,7 +1604,7 @@ padding: 30px 0;
         margin-top: 55px;
     }
 
-    .revolutionary-text h3{
+    .revolutionary-text h3 {
         background-color: #539BCE;
         font-size: 20px;
         color: var(--main-white);
@@ -1613,14 +1616,15 @@ padding: 30px 0;
     .revolutionary {
         display: block;
     }
+
     .revolutionary-text {
         background-color: unset;
         padding: 20px;
     }
 
     .revolutionary-body-wax {
-        margin-top: 20px;
-    } 
+        margin: 20px auto;
+    }
 
     .revolutionary-text p {
         width: 80%;
@@ -1629,4 +1633,28 @@ padding: 30px 0;
         padding-left: 10%;
         color: var(--main-dark-grey-font);
     }
+
+    .zones-grid {
+        margin: 0;
+        display: block;
+    }
+
+    .zone-text {
+        display: block !important;
+    }
+
+    .zones-description {
+        display: block;
+    }
+
+    .zone-text-p {
+        display: none;
+    }
+    .zone-text h3{
+        margin: 0;
+        font-size: 14px;
+        color: var(--main-dark-grey-font);
+    }
+
+
 }
