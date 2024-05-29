@@ -200,6 +200,7 @@ header ul li a {
     padding: 8px 0;
     font-weight: 300;
     font-style: italic;
+    font-size: 18px;
 }
 
 .about-table {
@@ -336,7 +337,7 @@ header ul li a {
 /* coconuts */
 
 .coconuts-div {
-    width: 70%;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -353,7 +354,7 @@ header ul li a {
 .coconuts-div p {
     color: var(--main-brown-font);
     font-size: 37px;
-    width: 100;
+    font-weight: 300;
     text-transform: uppercase;
     line-height: 1.2;
 }
@@ -445,6 +446,7 @@ header ul li a {
 .revolutionary-text p {
     width: 80%;
     line-height: 1.5;
+    font-size: 18px;
 }
 
 .big-coconut {
@@ -754,6 +756,7 @@ header ul li a {
     color: var(--main-dark-grey-font);
     position: relative;
     margin-top: 20px;
+    font-size: 20px;
 
 }
 
@@ -777,7 +780,7 @@ header ul li a {
     line-height: 1.3;
     margin-bottom: 40px;
     transition: max-height 2s ease-out;
-
+    font-size: 18px;
 }
 
 .active::after {
@@ -798,7 +801,7 @@ header ul li a {
 
 
 .customer-reviews h2 {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
     color: rgba(43, 43, 43, 0.76);
@@ -862,13 +865,13 @@ header ul li a {
 }
 
 .review .author {
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 5px;
 }
 
 
 .review div p {
-    font-size: 13px;
+    font-size: 16px;
     font-style: italic;
     font-weight: 500;
     margin: 10px 0px;
@@ -1364,13 +1367,13 @@ footer .useful-links li {
         font-style: italic;
         color: var(--main-brown-font);
         background-color: unset;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 13px;
     }
 
 
     .about .sub-title b {
-        font-weight: 500;
+        font-weight: 600;
 
     }
 
@@ -1808,9 +1811,11 @@ footer .useful-links li {
         width: 90%;
         margin: 20px auto;
     }
-    .body-wax{
+
+    .body-wax {
         margin: 40px auto;
     }
+
     .body-wax h2 {
         font-size: 24px;
         color: #848484;
@@ -1820,11 +1825,127 @@ footer .useful-links li {
     }
 
 
-    .body-wax h2 b{
+    .body-wax h2 b {
         text-transform: uppercase;
     }
-    .body-wax .cta{
+
+    .body-wax .cta {
         width: 40%;
     }
+
+    .gallery {
+        display: flex;
+        
+        
+        align-items: center;
+    }
+/* 
+    .gallery img {
+        max-height: 150px;
+    } */
+
+    .faq-banner h2 {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        font-size: 23px;
+
+    }
+
+    .faq ul {
+        width: 90%;
+    }
+
+    .reviews-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .customer-reviews .rating {
+        margin-left: 0;
+    }
+
+    .review .review-content {
+        display: block;
+    }
+
+    .q {
+        font-size: 15px;
+    }
+
+    .a {
+        font-size: 13px;
+    }
+    footer .container{
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+    .useful-links{
+        text-align: center;
+    }
+    .sm-disclaimer {
+        padding: 20px;
+      }
+
+}
+
+@media screen and (max-width: 768px) {
+
+.header-mobile h1 { 
+    font-size: 37px;
+}
+
+.table-div p {
+    color: var(--main-brown-font);
+    font-size: 14px;
+}
+
+.why-nudy-header .title b {
+    display: inline-block;
+}
+
+.why-nudy-header .title {
+    background-color: var(--main-green);
+    color: var(--main-white);
+    padding: 30px 15px;
+    padding-left: 40%;
+    width: 50%;
+
+}
+.blue-banner-text h3 {
+    font-size: 32px;
+}
+.blue-banner-text p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.wax-heater div h3 {
+    font-size: 36px;
+}
+.wax-heater div p {
+    line-height: 1.2;
+}
+
+.step p {
+    font-size: 13px;
+    margin-top: 13px;
+    margin-left: 25px;
+
+
+}
+.customer-reviews h2 {
+    font-size: 24px;
+}
+.customer-reviews h2 span {
+    font-size: 14px;
+}
+.review div p {
+    font-size: 13px;
+}
 
 }
