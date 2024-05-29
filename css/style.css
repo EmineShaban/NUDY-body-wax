@@ -268,7 +268,9 @@ header ul li a {
 
 
 /* why-nudy */
-
+.why-nudy-header .title{
+    margin-bottom: 35px;
+}
 .why-nudy-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -323,14 +325,14 @@ header ul li a {
 
 
 .blue-banner-text p {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 15px;
     font-weight: 300;
 
 }
 
 .blue-banner-text h3 {
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 800;
 }
 
@@ -429,6 +431,8 @@ header ul li a {
 
 
 .revolutionary-text img {
+    mix-blend-mode: multiply;
+
     width: 25px;
     text-align: center;
     position: relative;
@@ -650,6 +654,7 @@ header ul li a {
 
 .wax-heater-img {
     margin: auto;
+    width: 90%;
 }
 
 /* recommendation */
@@ -962,8 +967,7 @@ footer p {
     font-weight: 700;
 }
 
-footer .contact-links ul {
-    margin-top: 30px;
+footer .contact-links ul { 
     display: grid;
     grid-template-columns: repeat(2, 40px);
     justify-content: center;
@@ -1188,8 +1192,8 @@ footer .useful-links li {
     .background {
         background-image: url(../images/background.png);
         background-size: cover;
-        background-repeat: round;
-        padding-top: 70px;
+        background-repeat: round; 
+        padding-bottom: 40px;
     }
 
     .hero-last {
@@ -1456,6 +1460,8 @@ footer .useful-links li {
     .why-nudy .q img {
         width: 25px;
         margin: auto 10px;
+        mix-blend-mode: multiply;
+
     }
 
     .why-nudy .q {
@@ -1623,7 +1629,7 @@ footer .useful-links li {
 
     .revolutionary-text {
         background-color: unset;
-        padding: 20px;
+        padding: 20px 0;
     }
 
     .revolutionary-body-wax {
@@ -1809,7 +1815,7 @@ footer .useful-links li {
     }
 
     .recommendation-img {
-        width: 90%;
+        width: 100%;
         margin: 20px auto;
     }
 
@@ -1899,11 +1905,16 @@ footer .useful-links li {
         text-transform: uppercase;
     }
     .body-wax{
-        background-color: #a29e9e0b;
-        border-radius: 16px;
+         border-radius: 16px;
         padding: 25px 5px;
     }
-    
+    .q { 
+        font-weight: 400;
+    }
+    .faq ul {
+        margin: auto;
+        margin-top: 25px;
+    }
 }
 
 @media screen and (max-width: 415px) {
@@ -1921,7 +1932,7 @@ footer .useful-links li {
     .hero {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 90%;
+        width: 95%;
     }
     .about-mobile img {
         width: 90%;
@@ -1937,7 +1948,7 @@ footer .useful-links li {
         color: var(--main-brown-font);
         font-size: 14px;
     }
-
+   
     .why-nudy-header .title b {
         display: inline-block;
     }
