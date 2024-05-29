@@ -1,12 +1,12 @@
 let li = document.getElementsByClassName("zone-li");
 let text = document.getElementsByClassName("zone-text");
- 
-for (i = 0; i < li.length; i++) { 
-    let index = i 
+
+for (i = 0; i < li.length; i++) {
+    let index = i
     li[i].addEventListener("click", function (e) {
         for (y = 0; y < text.length; y++) {
-            text[y].style.display = "none"; 
-            console.log( li[y].children[0].children[0])
+            text[y].style.display = "none";
+            console.log(li[y].children[0].children[0])
             li[y].children[0].children[0].style.border = "unset";
             li[y].children[0].children[1].style.visibility = "hidden";
 
@@ -21,19 +21,27 @@ for (i = 0; i < li.length; i++) {
 
 
 let acc = document.getElementsByClassName("q");
-var speed = "500";
 for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function () {
         this.classList.toggle("active");
 
         let panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.classList.toggle("aa");
-
+        if (panel.style.display === "block") { 
             panel.style.display = "none";
-        } else {
-            this.classList.toggle("aa");
+        } else { 
+            panel.style.display = "block";
+        }
+    });
+}
 
+let acc2 = document.getElementsByClassName("phase-text-h3");
+for (i = 0; i < acc2.length; i++) {
+    acc2[i].addEventListener("click", function () {
+        this.classList.toggle("active2"); 
+        let panel = this.nextElementSibling;
+        if (panel.style.display === "block") { 
+            panel.style.display = "none";
+        } else { 
             panel.style.display = "block";
         }
     });
