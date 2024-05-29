@@ -1369,6 +1369,7 @@ footer .useful-links li {
         background-color: unset;
         font-weight: 600;
         font-size: 13px;
+        margin-top: 3px;
     }
 
 
@@ -1835,11 +1836,12 @@ footer .useful-links li {
 
     .gallery {
         display: flex;
-        
-        
+
+
         align-items: center;
     }
-/* 
+
+    /* 
     .gallery img {
         max-height: 150px;
     } */
@@ -1879,73 +1881,99 @@ footer .useful-links li {
     .a {
         font-size: 13px;
     }
-    footer .container{
+
+    footer .container {
         flex-direction: column;
         gap: 25px;
         text-align: center;
     }
-    .useful-links{
+
+    .useful-links {
         text-align: center;
     }
+
     .sm-disclaimer {
         padding: 20px;
-      }
-
+    }
+    .wax-heater div h3 b{
+        text-transform: uppercase;
+    }
+    .body-wax{
+        background-color: #a29e9e0b;
+        border-radius: 16px;
+        padding: 25px 5px;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 415px) {
+    .cta {
+        width: 40%;
+    }
+    .header-mobile h1 {
+        font-size: 37px;
+    }
 
-.header-mobile h1 { 
-    font-size: 37px;
-}
+    .table-div p {
+        color: var(--main-brown-font);
+        font-size: 14px;
+    }
 
-.table-div p {
-    color: var(--main-brown-font);
-    font-size: 14px;
-}
+    .why-nudy-header .title b {
+        display: inline-block;
+    }
 
-.why-nudy-header .title b {
-    display: inline-block;
-}
+    .why-nudy-header .title {
+        background-color: var(--main-green);
+        color: var(--main-white);
+        padding: 30px 15px;
+        padding-left: 40%;
+        width: 50%;
 
-.why-nudy-header .title {
-    background-color: var(--main-green);
-    color: var(--main-white);
-    padding: 30px 15px;
-    padding-left: 40%;
-    width: 50%;
+    }
 
-}
-.blue-banner-text h3 {
-    font-size: 32px;
-}
-.blue-banner-text p {
-    font-size: 20px;
-    margin-bottom: 5px;
-}
+    .blue-banner-text h3 {
+        font-size: 32px;
+    }
 
-.wax-heater div h3 {
-    font-size: 36px;
-}
-.wax-heater div p {
-    line-height: 1.2;
-}
+    .blue-banner-text p {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
 
-.step p {
-    font-size: 13px;
-    margin-top: 13px;
-    margin-left: 25px;
+    .wax-heater div h3 {
+        font-size: 36px;
+    }
+
+    .wax-heater div p {
+        line-height: 1.2;
+    }
+
+    .step p {
+        font-size: 13px;
+        margin-top: 13px;
+        margin-left: 25px;
 
 
-}
-.customer-reviews h2 {
-    font-size: 24px;
-}
-.customer-reviews h2 span {
-    font-size: 14px;
-}
-.review div p {
-    font-size: 13px;
-}
+    }
 
+    .customer-reviews h2 {
+        font-size: 24px;
+    }
+
+    .customer-reviews h2 span {
+        font-size: 14px;
+    }
+
+    .review div p {
+        font-size: 13px;
+    }
+    .table { 
+        padding: 20px 0px;
+    }
+    .why-nudy-mobile .cta{
+        width: 60%;
+    }
+    .coconuts-div img {
+        width: 80px;
+    }
 }
