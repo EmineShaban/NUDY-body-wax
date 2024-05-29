@@ -13,6 +13,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -343,44 +346,74 @@
             </ul>
             <div class="zones-description">
                 <div class="zone-text">
-                    <h3 class="zone-text-h3">Legs & Thighs
-                    </h3>
-                    <p class="zone-text-p"><b>NUDY. Coco Unleashes: </b>The creamy texture glides effortlessly, embracing each hair
+                    <div class="zone-text-img">
+                        <img class="mobile768" src="./images/zone1.png" alt="">
+                        <h3 class="zone-text-h3">Legs & Thighs
+                        </h3>
+                    </div>
+
+                    <p class="zone-text-p"><b>NUDY. Coco Unleashes: </b>
+                        The creamy texture glides effortlessly, embracing each hair
                         perfectly. Get silky, radiant legs that steal the spotlight wherever you go!
                     </p>
                 </div>
                 <div class="zone-text" style="display: none;">
-                    <h3>Arms & Underarms
-                    </h3>
-                    <p  class="zone-text-p"><b>Confidence Boost:</b> Coco Body Wax leaves your arms and armpits impeccably hair-free. Unleash
+
+                    <div class="zone-text-img">
+                        <img class="mobile768" src="./images/zone2.png" alt="">
+                        <h3>Arms & Underarms
+                        </h3>
+                    </div>
+                    <p class="zone-text-p"><b>Confidence Boost:</b> Coco Body Wax leaves your arms and armpits
+                        impeccably hair-free. Unleash
                         your
                         confidence and show off those sleeveless wonders!</p>
                 </div>
                 <div class="zone-text" style="display: none;">
-                    <h3>Bikini Line
-                    </h3>
-                    <p  class="zone-text-p"><b>Precision Perfected:</b> Take the bikini line precision level to the max with NUDY. Coco Wax.
+
+                    <div class="zone-text-img">
+                        <img class="mobile768" src="./images/zone3.png" alt="">
+                        <h3>Bikini Line
+                        </h3>
+                    </div>
+                    <p class="zone-text-p"><b>Precision Perfected:</b> Take the bikini line precision level to the max
+                        with NUDY. Coco Wax.
                         The spatula allows you to sculpt clean lines with ease. Start radiating confidence in your
                         favorite swimwear!
                     </p>
                 </div>
                 <div class="zone-text" style="display: none;">
-                    <h3>Back</h3>
-                    <p class="zone-text-p"><b>Effortless Elegance:</b> Conquer hard-to-reach areas on your back with NUDY. Coco Wax. Apply
+
+                    <div class="zone-text-img">
+                        <img class="mobile768" src="./images/zone4.png" alt="">
+                        <h3>Back</h3>
+                    </div>
+                    <p class="zone-text-p"><b>Effortless Elegance:</b> Conquer hard-to-reach areas on your back with
+                        NUDY. Coco Wax. Apply
                         strategically, and with the help of a friend. Experience swift removal for a flawlessly smooth
                         back.
                     </p>
                 </div>
                 <div class="zone-text" style="display: none;">
-                    <h3>Chest</h3>
-                    <p class="zone-text-p"><b>Confidence Defined:</b> Uplift your confidence quickly with a velvety-smooth chest. The easy
+
+                    <div class="zone-text-img">
+                        <img class="mobile768" src="./images/zone5.png" alt="">
+                        <h3>Chest</h3>
+                    </div>
+                    <p class="zone-text-p"><b>Confidence Defined:</b> Uplift your confidence quickly with a
+                        velvety-smooth chest. The easy
                         application of the creamy wax ensures a clean, refined chest.
                     </p>
                 </div>
                 <div class="zone-text" style="display: none;">
-                    <h3>Feet & Toes
-                    </h3>
-                    <p class="zone-text-p"><b>Indulgence Redefined:</b> Carefully apply the wax to smaller areas and swiftly remove it.
+
+                    <div class="zone-text-img">
+                        <img class="mobile768" src="./images/zone6.png" alt="">
+                        <h3>Feet & Toes
+                        </h3>
+                    </div>
+                    <p class="zone-text-p"><b>Indulgence Redefined:</b> Carefully apply the wax to smaller areas and
+                        swiftly remove it.
                         Another trick in your foot care routine is unlocked.
                     </p>
                 </div>
@@ -389,7 +422,22 @@
         </div>
 
     </div>
-
+    <div class="zones-sw">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./images/zones-sw1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/zones-sw2.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/zones-sw3.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
     <div class="wax-heater container">
         <div>
             <h3>Introducing <br>
@@ -693,6 +741,23 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src="./js/index.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            loop: false,
+            initialSlide: 1,
+            spaceBetween: 10,
+
+            slidesPerView: 1.5,
+            centeredSlides: true,
+        });
+    </script>
     <script src='/cdn/js/fa_events.js'></script>
     <script>
         fa_get_data('PageViewProduct');

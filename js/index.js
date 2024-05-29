@@ -47,7 +47,17 @@ for (i = 0; i < acc2.length; i++) {
     });
 }
 
-
+let acc3 = document.getElementsByClassName("zone-text-img");
+for (i = 0; i < acc3.length; i++) {
+    acc3[i].addEventListener("click", function () {
+         let panel = this.nextElementSibling;
+        if (panel.style.display === "block") { 
+            panel.style.display = "none";
+        } else { 
+            panel.style.display = "block";
+        }
+    });
+}
 
 $(document).ready(function () {
 

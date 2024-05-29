@@ -1641,6 +1641,10 @@ footer .useful-links li {
 
     .zone-text {
         display: block !important;
+        border: none;
+        margin: 10px auto; 
+        background-color: unset;
+        padding: 0;
     }
 
     .zones-description {
@@ -1650,11 +1654,57 @@ footer .useful-links li {
     .zone-text-p {
         display: none;
     }
-    .zone-text h3{
+
+    .zone-text h3 {
         margin: 0;
         font-size: 14px;
         color: var(--main-dark-grey-font);
     }
+
+    .zone-text-img img {
+        width: 25px;
+        mix-blend-mode: multiply;
+
+    }
+
+    .zone-text-img {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        background-color: var(--main-grey);
+        border-radius: 12px;
+        padding: 10px;
+        padding-left: 7%;
+    }
+
+    .zone-text .zone-text-p {
+        color: var(--main-dark-grey-font);
+
+        font-size: 13px; 
+        padding-left: 10%;
+        margin-bottom: 30px;
+
+    }
+
+    .zone-text-p b {
+        display: block;
+        font-weight: 800;
+        margin: 10px auto;
+    }
+
+    .swiper-slide img{
+        width: 88% ;
+        display: block;
+        margin: auto;
+        padding-bottom: 25px;
+
+    }
+
+
+
+
+
+
 
 
 }
