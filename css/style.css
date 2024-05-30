@@ -268,9 +268,10 @@ header ul li a {
 
 
 /* why-nudy */
-.why-nudy-header .title{
+.why-nudy-header .title {
     margin-bottom: 35px;
 }
+
 .why-nudy-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -967,7 +968,7 @@ footer p {
     font-weight: 700;
 }
 
-footer .contact-links ul { 
+footer .contact-links ul {
     display: grid;
     grid-template-columns: repeat(2, 40px);
     justify-content: center;
@@ -1192,7 +1193,7 @@ footer .useful-links li {
     .background {
         background-image: url(../images/background.png);
         background-size: cover;
-        background-repeat: round; 
+        background-repeat: round;
         padding-bottom: 40px;
     }
 
@@ -1901,16 +1902,20 @@ footer .useful-links li {
     .sm-disclaimer {
         padding: 20px;
     }
-    .wax-heater div h3 b{
+
+    .wax-heater div h3 b {
         text-transform: uppercase;
     }
-    .body-wax{
-         border-radius: 16px;
+
+    .body-wax {
+        border-radius: 16px;
         padding: 25px 5px;
     }
-    .q { 
+
+    .q {
         font-weight: 400;
     }
+
     .faq ul {
         margin: auto;
         margin-top: 25px;
@@ -1924,22 +1929,27 @@ footer .useful-links li {
         font-size: 13px;
         padding-left: 6%;
     }
+
     .why-nudy-mobile img {
         display: block;
         margin: auto;
         width: 90%;
     }
+
     .hero {
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: 95%;
     }
+
     .about-mobile img {
         width: 90%;
     }
+
     .cta {
         width: 40%;
     }
+
     .header-mobile h1 {
         font-size: 37px;
     }
@@ -1948,7 +1958,7 @@ footer .useful-links li {
         color: var(--main-brown-font);
         font-size: 14px;
     }
-   
+
     .why-nudy-header .title b {
         display: inline-block;
     }
@@ -1998,12 +2008,15 @@ footer .useful-links li {
     .review div p {
         font-size: 13px;
     }
-    .table { 
+
+    .table {
         padding: 20px 0px;
     }
-    .why-nudy-mobile .cta{
+
+    .why-nudy-mobile .cta {
         width: 60%;
     }
+
     .coconuts-div img {
         width: 80px;
     }
