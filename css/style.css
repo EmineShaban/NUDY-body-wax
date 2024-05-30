@@ -458,7 +458,7 @@ header ul li a {
     margin-top: auto;
     margin-left: -150px;
     margin-bottom: -30px;
-
+    mix-blend-mode: multiply;
 }
 
 
@@ -1191,7 +1191,7 @@ footer .useful-links li {
     }
 
     .background {
-        background-image: url(../images/background.png);
+        background-image: url(../images/background.webp);
         background-size: cover;
         background-repeat: round;
         padding-bottom: 40px;
@@ -1345,7 +1345,7 @@ footer .useful-links li {
     }
 
     .about-mobile .sub-title {
-        margin: 40px auto 25px auto;
+        margin: 0 auto 25px auto;
         font-size: 15px;
         padding: 12px 0;
     }
@@ -1914,7 +1914,7 @@ footer .useful-links li {
 
     .q {
         font-weight: 400;
-        padding-right: 20px;
+        padding-right: 30px;
 
     }
 
@@ -1941,7 +1941,7 @@ footer .useful-links li {
     .hero {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 95%;
+        width: 100%;
     }
 
     .about-mobile img {
